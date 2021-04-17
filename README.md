@@ -12,7 +12,7 @@ OmniScaler takes a windowed game or application, displays its window contents to
  - Supports Windows 7, 8, 10
 
 This initial alpha release has no frontend, therefore certain requirements need to be met by you before using OmniScaler:
- 1. The game/application you want to scale up MUST be fullscreen. Before beginning anything else make sure the application you want to try OmniScaler with starts up windowed
+ 1. The game/application you want to scale up MUST be windowed. Before beginning anything else make sure the application you want to try OmniScaler with starts up windowed
  2. Extract contents of zip into its own directory. I suggest C:\OmniScaler but anywhere is fine
  3. Once files have been extracted, open gamefs.ini in a text editor
  4. Type in the directory of the game/application you want to run in the GameDir entry.
