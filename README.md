@@ -14,12 +14,12 @@ OmniScaler takes a windowed game or application, displays its window contents to
 This initial alpha release has no frontend, therefore certain requirements need to be met by you before using OmniScaler:
  1. The game/application you want to scale up MUST be fullscreen. Before beginning anything else make sure the application you want to try OmniScaler with starts up windowed
  2. Extract contents of zip into its own directory. I suggest C:\OmniScaler but anywhere is fine
- 3. Once files have been extracted, pen gamefs.ini in a text editor
- 4. Type in the directory of the game/application you want to run in GameDir.
+ 3. Once files have been extracted, open gamefs.ini in a text editor
+ 4. Type in the directory of the game/application you want to run in the GameDir entry.
 	  For example if my game is C:\Program Files\Microsoft Games\Minesweeper\MineSweeper.exe
 	  then, 
 	  GameDir=C:\Program Files\Microsoft Games\Minesweeper
- 5. Type in the exe file name of the game/application you want to run in GameExe
+ 5. Type in the exe file name of the game/application you want to run in the GameExe entry.
 	  As example above,
 	  GameExe=MineSweeper.exe
  6. Save gamefs.ini
