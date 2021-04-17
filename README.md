@@ -16,9 +16,13 @@ This initial alpha release has no frontend, therefore certain requirements need 
  2. Extract contents of zip into its own directory. I suggest C:\OmniScaler but anywhere is fine
  3. Once files have been extracted, open gamefs.ini in a text editor
  4. Type in the directory of the game/application you want to run in the GameDir entry.
+ 
 	  For example if my game is C:\Program Files\Microsoft Games\Minesweeper\MineSweeper.exe
+	  
 	  then, 
+	  
 	  GameDir=C:\Program Files\Microsoft Games\Minesweeper
+	  
  5. Type in the exe file name of the game/application you want to run in the GameExe entry.
 	  As example above,
 	  GameExe=MineSweeper.exe
