@@ -33,10 +33,15 @@ This initial alpha release has no frontend, therefore certain requirements need 
  7. Launch OmniScaler.exe , your game/application will launch fullscreen 
 
 **OPTIONAL:** If after running your game or application you have discovered that there are borders or menu items showing at the corners of the screen, edit these entries in gamefs.ini to crop them out:
+
 offset_top=
+
 offset_bottom=
+
 offset_left=
+
 offset_right=
+
 The values to enter are pixels.
 
 This is a test release. Possible features in the future:
