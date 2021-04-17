@@ -24,8 +24,11 @@ This initial alpha release has no frontend, therefore certain requirements need 
 	  GameDir=C:\Program Files\Microsoft Games\Minesweeper
 	  
  5. Type in the exe file name of the game/application you want to run in the GameExe entry.
+	  
 	  As example above,
+	  
 	  GameExe=MineSweeper.exe
+	  
  6. Save gamefs.ini
  7. Launch OmniScaler.exe , your game/application will launch fullscreen 
 
