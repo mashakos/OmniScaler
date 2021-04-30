@@ -11,6 +11,14 @@ OmniScaler takes a windowed game or application, displays its window contents to
  - Directx 11. Reshade, SweetFX, Rivatuner, all work now.
  - Supports Windows 7, 8, 10
 
+
+This application requires Aero to be enabled in Windows.
+
+
+**Tips:**
+- OmniScaler accepts command line arguments. Simply create a shortcut to OmniScaler.exe and add command line arguments in the shortcut propreties.
+- If a game gives you a black screen it could be that the game internally tries to disable aero or set a compatibility mode of Windows XP or older. A quick workaround is to set the compatibility mode of both the game and OmniScaler.exe to Windows 8.
+
 This initial alpha release has no frontend, therefore certain requirements need to be met by you before using OmniScaler:
  1. The game/application you want to scale up MUST be windowed. Before beginning anything else make sure the application you want to try OmniScaler with starts up windowed
  2. Extract contents of zip into its own directory. I suggest C:\OmniScaler but anywhere is fine
