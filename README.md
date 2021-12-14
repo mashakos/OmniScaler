@@ -46,10 +46,6 @@ offset_top=
 
 offset_bottom=
 
-offset_left=
-
-offset_right=
-
 The values to enter are pixels.
 
 This is a test release. Possible features in the future:
