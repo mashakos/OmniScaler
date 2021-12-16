@@ -3,6 +3,10 @@
 # OmniScaler
 Zero Latency DirectX 11 scaling utility.
 
+[![DC4gjLRUMAAyQ92](https://user-images.githubusercontent.com/19247958/146376619-fe827111-f2a6-48b1-b67f-b4b7b5ca0d3e.jpg)](https://www.patreon.com/mashakos)
+
+
+
 OmniScaler takes a windowed game or application, displays its window contents to a fullscreen view via Directx 11. 
 
 **Advantages**
