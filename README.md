@@ -26,7 +26,7 @@ This application requires Aero to be enabled in Windows.
 This initial alpha release has no frontend, therefore certain requirements need to be met by you before using OmniScaler:
  1. The game/application you want to scale up MUST be windowed. Before beginning anything else make sure the application you want to try OmniScaler with starts up windowed
  2. Extract contents of zip into its own directory. I suggest C:\OmniScaler but anywhere is fine
- 3. Once files have been extracted, open gamefs.ini in a text editor
+ 3. Once files have been extracted, open omniscaler.ini in a text editor
  4. Type in the directory of the game/application you want to run in the GameDir entry.
  
 	  For example if my game is C:\Program Files\Microsoft Games\Minesweeper\MineSweeper.exe
@@ -41,10 +41,10 @@ This initial alpha release has no frontend, therefore certain requirements need 
 	  
 	  GameExe=MineSweeper.exe
 	  
- 6. Save gamefs.ini
+ 6. Save omniscaler.ini
  7. Launch OmniScaler.exe , your game/application will launch fullscreen 
 
-**OPTIONAL:** If after running your game or application you have discovered that there are borders or menu items showing at the corners of the screen, edit these entries in gamefs.ini to crop them out:
+**OPTIONAL:** If after running your game or application you have discovered that there are borders or menu items showing at the corners of the screen, edit these entries in omniscaler.ini to crop them out:
 
 offset_top=
 
