@@ -138,4 +138,7 @@
       <Filter>Source Files</Filter>
     </FxCompile>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="README.md" />
+  </ItemGroup>
 </Project>
