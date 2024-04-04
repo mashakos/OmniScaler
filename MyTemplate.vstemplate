@@ -1,0 +1,58 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>OmniScaler</Name>
+    <Description>OmniScaler Template</Description>
+    <ProjectType>VC</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>OmniScaler</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="OmniScaler.vcxproj" File="OmniScaler.vcxproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="false" TargetFileName="$projectname$.vcxproj.filters">OmniScaler.vcxproj.filters</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="cursortexture_ps.hlsl">cursortexture_ps.hlsl</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="cursortexture_vs.hlsl">cursortexture_vs.hlsl</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="texture_ps.hlsl">texture_ps.hlsl</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="texture_vs.hlsl">texture_vs.hlsl</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="cameraclass.cpp">cameraclass.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="CommandParse.cpp">CommandParse.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="cursormodelclass.cpp">cursormodelclass.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="cursorshaderclass.cpp">cursorshaderclass.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="cursortextureclass.cpp">cursortextureclass.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="main.cpp">main.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="modelclass.cpp">modelclass.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="OmniScalerD3D.cpp">OmniScalerD3D.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="OmniScalerGraphics.cpp">OmniScalerGraphics.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="OmniScalerInput.cpp">OmniScalerInput.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="OmniScalerSystem.cpp">OmniScalerSystem.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="textureclass.cpp">textureclass.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="textureshaderclass.cpp">textureshaderclass.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="cameraclass.h">cameraclass.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="CommandParse.h">CommandParse.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="cursormodelclass.h">cursormodelclass.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="cursorshaderclass.h">cursorshaderclass.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="cursortextureclass.h">cursortextureclass.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="cursorTexturePixelShader.h">cursorTexturePixelShader.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="cursorTextureVertexShader.h">cursorTextureVertexShader.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="globals.h">globals.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="modelclass.h">modelclass.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="OmniScalerD3D.h">OmniScalerD3D.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="OmniScalerGraphics.h">OmniScalerGraphics.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="OmniScalerInput.h">OmniScalerInput.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="OmniScalerSystem.h">OmniScalerSystem.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="resource.h">resource.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="stdafx.h">stdafx.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="textureclass.h">textureclass.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="TexturePixelShader.h">TexturePixelShader.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="textureshaderclass.h">textureshaderclass.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="TextureVertexShader.h">TextureVertexShader.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="OmniScaler.rc">OmniScaler.rc</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
